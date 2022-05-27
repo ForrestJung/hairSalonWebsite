@@ -1,0 +1,246 @@
+body {
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    background-color: lightgray;
+}
+
+header {
+    width: 80%;
+    min-width: 300px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: auto;
+    background-color: teal;
+
+}
+
+footer {
+
+}
+
+/* In-line header styles for mobile */
+
+.mobile-header {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.company-name-header {
+    width: 100px;
+    height: 80px;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: auto;
+    color: white;
+    background-color: navy;
+    text-align: center;
+}
+
+.navigation-buttons-mobile {
+    width: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+/*     margin-top: 10px; */
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+/*     background-color: orange; */
+    flex-direction: column-reverse;
+
+
+}
+
+button.nav-button-home {
+    width: 100px;
+    margin-bottom: 5px;
+    color: white;
+    background-color: navy;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1px;
+    font-weight: 4vw;
+
+}
+
+button.nav-button-about {
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    background-color: navy;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1px;
+    font-weight: 4vw;
+}
+
+button.nav-button-contact {
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    background-color: navy;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1px;
+    font-weight: 4vw;
+}
+
+button.nav-button-gallery {
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    background-color: navy;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1px;
+    font-weight: 4vw;
+}
+
+button.nav-button-blog {
+    width: 100px;
+    margin-top: 5px;
+/*     margin-bottom: 5px; */
+    color: white;
+    background-color: navy;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1px;
+    font-weight: 4vw;
+}
+
+/* Button pseudo elements */
+
+button:hover {
+    background-color: aquamarine ;
+}
+
+button:active {
+    background-color:aquamarine
+}
+
+/* Mobile display:grid */
+
+.image-grid {
+    display: grid;
+    /* height: 40px; */
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+}
+
+.top-left-img {
+    width: 135px;
+    height: 135px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    grid-column: 1;
+    grid-row: 1;
+    border-style: solid;
+    border-color: teal;
+}
+
+.top-right-img {
+    width: 135px;
+    height: 135px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    grid-column: 2;
+    grid-row: 1;
+    border-style: solid;
+    border-color: teal;
+}
+
+.bottom-left-img {
+    width: 135px;
+    height: 135px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    grid-column: 1;
+    grid-row: 2;
+    border-style: solid;
+    border-color: teal;
+}
+
+.bottom-right-img {
+    width: 135px;
+    height: 135px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    grid-column: 2;
+    grid-row: 2;
+    border-style: solid;
+    border-color: teal;
+}
+
+/* Styles for featured box mobile */
+
+.featured-box {
+    width: 80%;
+    min-width: 300px;
+    height: 20vw;
+    min-height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-color: teal;
+}
+
+h3.featured-header {
+    color: white;
+    background-color: navy;
+    width: 30vw;
+    min-width:   100px;
+    height: auto;
+    margin-top: none;
+    margin-right: 75%;
+    /* margin-bottom: 90%; */
+    margin-left: 5%;
+    text-align: center;
+
+    /* border-style: solid; */
+    /* border-width: 5px; */
+}
+
+.featured-content {
+    width: 300px;
+    min-width: 300px;
+    height: 20vw;
+    margin-right: auto; 
+    margin-left: auto;
+    font-size: calc(8pt + 1vw);
+
+    border-style: solid;
+}
+
+
+/* Classes for misc content */
+
+.large-img {
+    width: 80%;
+    min-width: 300px;
+    height: 40vw;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    padding: auto;
+    background-color: teal;
+    justify-content: center;
+}
